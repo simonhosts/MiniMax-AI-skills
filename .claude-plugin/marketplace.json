@@ -1,15 +1,19 @@
 {
-  "name": "minimax-skills",
-  "description": "MiniMax AI skills library for frontend, fullstack, and Android native development",
+  "name": "minimax-pptx-plugin",
+  "description": "PPT generation and editing plugin from MiniMax AI",
   "owner": {
-    "name": "MiniMax AI"
+    "name": "simonhosts"
   },
   "plugins": [
     {
-      "name": "minimax-skills",
-      "description": "MiniMax AI skills library: frontend development, fullstack development, and Android native development",
+      "name": "pptx-plugin",
+      "description": "PowerPoint generation and editing plugin with text-only QA (no vision required). Uses subagents for cover, TOC, content, section dividers, summary slides, and template-based PPT editing workflows.",
       "version": "1.0.0",
-      "source": "./",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/simonhosts/skills.git",
+        "path": "plugins/pptx-plugin"
+      },
       "author": {
         "name": "MiniMax AI"
       }
